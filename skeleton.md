@@ -1,0 +1,3 @@
+Q  What happens to the layout when you resize the screen to less than         550 px. How do you think that works?
+
+A  All the columns collapse pn top of each other instead of aligning          horizontally. From what I can tell looking at the css, the webpage is      intially designed as a collapsed grid (ie what you see at 400px), where    everything files into a single column. Once the screen is over 550px,      there is a media query that triggers an expansion of that grid, because    the columns line up horizontally based on the percentage of the grid       they take up, as specified in the query.
